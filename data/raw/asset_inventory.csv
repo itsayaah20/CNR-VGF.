@@ -1,0 +1,301 @@
+Asset_ID,Hostname,Type,OS,IP,Environment,Criticality,Internet_Exposed,Application,Owner,EDR,Firewall,Data_Sensitivity
+ASSET-0001,RTR-001,Router,Windows Server 2022,10.10.0.1,Production,Medium,Yes,Online Banking,DevOps,No,Yes,Medium
+ASSET-0002,FW-002,Firewall,Oracle Linux,10.10.0.2,Test,Low,No,Internal Portal,IT,No,No,Medium
+ASSET-0003,SRV-003,Server,Windows Server 2025,10.10.0.3,Development,High,No,HR Application,IT,Yes,No,Low
+ASSET-0004,SW-004,Switch,RedHat Enterprise Linux 9,10.10.0.4,Production,High,Yes,Security Monitoring,DevOps,Yes,No,Critical
+ASSET-0005,DB-005,Database,Oracle Database 19c,10.10.0.5,Development,Critical,No,Internal Portal,DBA,No,No,Low
+ASSET-0006,RTR-006,Router,Linux RedHat,10.10.0.6,Production,High,No,Online Banking,Application Team,Yes,Yes,High
+ASSET-0007,SRV-007,Server,Linux RedHat,10.10.0.7,Production,Medium,No,Online Banking,DevOps,No,No,Critical
+ASSET-0008,DB-008,Database,Ubuntu Server 24.04 LTS,10.10.0.8,Production,Critical,Yes,Payment API,DBA,No,No,Medium
+ASSET-0009,APP-009,Application Server,Oracle Database 19c,10.10.0.9,Development,High,Yes,Internal Portal,DevOps,No,No,Critical
+ASSET-0010,SRV-010,Server,RedHat Enterprise Linux 9,10.10.0.10,Production,High,No,Online Banking,IT,No,Yes,High
+ASSET-0011,SW-011,Switch,Windows Server 2022,10.10.0.11,Development,Low,No,Online Banking,Security Team,Yes,No,Critical
+ASSET-0012,DB-012,Database,RedHat Enterprise Linux 9,10.10.0.12,Development,Medium,Yes,Online Banking,DBA,No,Yes,Medium
+ASSET-0013,SRV-013,Server,RedHat Enterprise Linux 9,10.10.0.13,Development,Critical,Yes,ERP,IT,Yes,No,Critical
+ASSET-0014,DB-014,Database,Ubuntu Server 24.04 LTS,10.10.0.14,Development,High,Yes,HR Application,Application Team,No,No,High
+ASSET-0015,DB-015,Database,Windows Server 2025,10.10.0.15,Test,Low,No,Online Banking,Application Team,No,Yes,Critical
+ASSET-0016,SRV-016,Server,Oracle Database 19c,10.10.0.16,Production,Critical,No,Online Banking,Network Team,Yes,No,Medium
+ASSET-0017,SRV-017,Server,Windows Server 2019,10.10.0.17,Development,Critical,Yes,Identity Management,Network Team,Yes,Yes,High
+ASSET-0018,APP-018,Application Server,Windows Server 2022,10.10.0.18,Test,Medium,Yes,Email Service,IT,Yes,Yes,Critical
+ASSET-0019,SRV-019,Server,RedHat Enterprise Linux 9,10.10.0.19,Development,High,Yes,Email Service,Network Team,No,Yes,Low
+ASSET-0020,FW-020,Firewall,Windows Server 2025,10.10.0.20,Development,Critical,No,HR Application,Security Team,Yes,Yes,Critical
+ASSET-0021,RTR-021,Router,Windows Server 2022,10.10.0.21,Development,High,No,Email Service,DevOps,No,Yes,Medium
+ASSET-0022,APP-022,Application Server,Linux Ubuntu,10.10.0.22,Test,High,Yes,Email Service,DBA,Yes,No,Medium
+ASSET-0023,SW-023,Switch,Windows Server 2025,10.10.0.23,Production,High,Yes,HR Application,Security Team,Yes,Yes,Critical
+ASSET-0024,FW-024,Firewall,Ubuntu Server 24.04 LTS,10.10.0.24,Test,Low,No,Payment API,DBA,No,No,Medium
+ASSET-0025,APP-025,Application Server,RedHat Enterprise Linux 9,10.10.0.25,Development,High,No,Security Monitoring,Network Team,Yes,No,High
+ASSET-0026,FW-026,Firewall,Ubuntu Server 24.04 LTS,10.10.0.26,Development,High,Yes,ERP,DBA,Yes,No,Medium
+ASSET-0027,FW-027,Firewall,RedHat Enterprise Linux 9,10.10.0.27,Test,High,No,ERP,Network Team,Yes,No,Low
+ASSET-0028,FW-028,Firewall,Linux Ubuntu,10.10.0.28,Test,High,No,Internal Portal,Network Team,No,Yes,High
+ASSET-0029,DB-029,Database,Windows Server 2025,10.10.0.29,Production,High,No,Security Monitoring,Application Team,No,Yes,Low
+ASSET-0030,DB-030,Database,RedHat Enterprise Linux 9,10.10.0.30,Test,High,Yes,ERP,DevOps,No,Yes,Low
+ASSET-0031,SRV-031,Server,RedHat Enterprise Linux 9,10.10.0.31,Test,Low,No,Identity Management,DevOps,No,Yes,Critical
+ASSET-0032,SRV-032,Server,RedHat Enterprise Linux 9,10.10.0.32,Test,High,Yes,Payment API,Network Team,Yes,Yes,High
+ASSET-0033,SW-033,Switch,Microsoft SQL Server 2022,10.10.0.33,Test,Critical,No,Payment API,Security Team,No,No,Low
+ASSET-0034,SW-034,Switch,Linux RedHat,10.10.0.34,Test,Critical,Yes,HR Application,DevOps,No,Yes,Critical
+ASSET-0035,APP-035,Application Server,Windows Server 2022,10.10.0.35,Development,High,Yes,Online Banking,IT,No,Yes,Low
+ASSET-0036,SW-036,Switch,Cisco IOS,10.10.0.36,Development,Medium,No,Security Monitoring,DevOps,No,No,Critical
+ASSET-0037,DB-037,Database,Windows Server 2019,10.10.0.37,Production,Critical,Yes,Email Service,Network Team,Yes,Yes,Medium
+ASSET-0038,SRV-038,Server,Windows Server 2022,10.10.0.38,Production,Critical,Yes,HR Application,DBA,No,Yes,Critical
+ASSET-0039,SW-039,Switch,Microsoft SQL Server 2022,10.10.0.39,Development,High,No,Customer Database,IT,Yes,Yes,High
+ASSET-0040,RTR-040,Router,RedHat Enterprise Linux 9,10.10.0.40,Development,Low,Yes,ERP,Application Team,No,No,High
+ASSET-0041,SRV-041,Server,Microsoft SQL Server 2022,10.10.0.41,Production,High,Yes,CRM,Application Team,Yes,No,Critical
+ASSET-0042,RTR-042,Router,Windows Server 2022,10.10.0.42,Production,Low,Yes,Email Service,DBA,Yes,No,Medium
+ASSET-0043,SW-043,Switch,RedHat Enterprise Linux 9,10.10.0.43,Development,High,No,ERP,DevOps,No,No,Low
+ASSET-0044,APP-044,Application Server,RedHat Enterprise Linux 9,10.10.0.44,Production,High,No,Online Banking,Security Team,No,No,Critical
+ASSET-0045,RTR-045,Router,Linux RedHat,10.10.0.45,Test,High,Yes,Internal Portal,Network Team,No,No,Low
+ASSET-0046,SW-046,Switch,Oracle Linux,10.10.0.46,Production,High,No,Payment API,IT,Yes,No,Medium
+ASSET-0047,APP-047,Application Server,Microsoft SQL Server 2022,10.10.0.47,Production,High,Yes,ERP,Security Team,Yes,No,High
+ASSET-0048,DB-048,Database,RedHat Enterprise Linux 9,10.10.0.48,Test,Low,No,HR Application,DevOps,Yes,Yes,Critical
+ASSET-0049,SW-049,Switch,RedHat Enterprise Linux 9,10.10.0.49,Development,Critical,Yes,CRM,Application Team,No,Yes,High
+ASSET-0050,SRV-050,Server,Oracle Database 19c,10.10.0.50,Test,High,No,ERP,IT,No,Yes,Low
+ASSET-0051,SRV-051,Server,Oracle Linux,10.10.0.51,Test,Medium,No,Payment API,Network Team,Yes,No,Medium
+ASSET-0052,APP-052,Application Server,Cisco IOS,10.10.0.52,Production,High,Yes,Online Banking,Security Team,No,Yes,Medium
+ASSET-0053,SRV-053,Server,Oracle Linux,10.10.0.53,Production,Medium,No,HR Application,DBA,Yes,No,High
+ASSET-0054,APP-054,Application Server,Ubuntu Server 24.04 LTS,10.10.0.54,Test,Medium,Yes,CRM,IT,Yes,Yes,High
+ASSET-0055,DB-055,Database,RedHat Enterprise Linux 9,10.10.0.55,Production,High,No,ERP,IT,No,Yes,Medium
+ASSET-0056,FW-056,Firewall,RedHat Enterprise Linux 9,10.10.0.56,Test,High,Yes,Payment API,DevOps,No,No,Low
+ASSET-0057,DB-057,Database,RedHat Enterprise Linux 9,10.10.0.57,Test,High,No,ERP,Network Team,No,Yes,Critical
+ASSET-0058,APP-058,Application Server,Windows Server 2025,10.10.0.58,Test,High,Yes,Payment API,DBA,No,Yes,Low
+ASSET-0059,SW-059,Switch,Microsoft SQL Server 2022,10.10.0.59,Test,Medium,Yes,Email Service,IT,Yes,No,Medium
+ASSET-0060,RTR-060,Router,Windows Server 2022,10.10.0.60,Development,High,Yes,CRM,DBA,Yes,No,Medium
+ASSET-0061,FW-061,Firewall,Cisco IOS,10.10.0.61,Test,Critical,Yes,Customer Database,DevOps,No,Yes,High
+ASSET-0062,APP-062,Application Server,Windows Server 2022,10.10.0.62,Production,Critical,No,Online Banking,Security Team,Yes,Yes,High
+ASSET-0063,APP-063,Application Server,Linux Ubuntu,10.10.0.63,Development,Medium,No,Security Monitoring,Application Team,Yes,No,Critical
+ASSET-0064,RTR-064,Router,Windows Server 2025,10.10.0.64,Test,Critical,Yes,ERP,DevOps,No,No,High
+ASSET-0065,SW-065,Switch,Microsoft SQL Server 2022,10.10.0.65,Production,Critical,Yes,Payment API,DBA,Yes,No,Medium
+ASSET-0066,FW-066,Firewall,Windows Server 2025,10.10.0.66,Production,High,No,CRM,Security Team,No,No,Low
+ASSET-0067,RTR-067,Router,Microsoft SQL Server 2022,10.10.0.67,Development,Low,Yes,Customer Database,Security Team,No,Yes,Critical
+ASSET-0068,SW-068,Switch,RedHat Enterprise Linux 9,10.10.0.68,Test,Low,No,HR Application,DBA,Yes,No,Medium
+ASSET-0069,APP-069,Application Server,Oracle Linux,10.10.0.69,Development,Low,No,Internal Portal,DBA,No,No,Medium
+ASSET-0070,APP-070,Application Server,RedHat Enterprise Linux 9,10.10.0.70,Production,Medium,No,Email Service,Network Team,Yes,No,High
+ASSET-0071,DB-071,Database,Oracle Database 19c,10.10.0.71,Test,Medium,Yes,Customer Database,DevOps,Yes,Yes,Medium
+ASSET-0072,RTR-072,Router,Linux Ubuntu,10.10.0.72,Test,Low,No,Online Banking,IT,Yes,Yes,High
+ASSET-0073,SRV-073,Server,Windows Server 2022,10.10.0.73,Test,Critical,Yes,Internal Portal,Application Team,Yes,Yes,Medium
+ASSET-0074,SW-074,Switch,Cisco IOS,10.10.0.74,Production,Critical,Yes,Customer Database,IT,No,Yes,Medium
+ASSET-0075,SW-075,Switch,Linux Ubuntu,10.10.0.75,Production,High,Yes,Email Service,IT,No,No,Medium
+ASSET-0076,FW-076,Firewall,Windows Server 2022,10.10.0.76,Test,High,No,Online Banking,DevOps,No,Yes,Medium
+ASSET-0077,RTR-077,Router,Oracle Linux,10.10.0.77,Production,High,Yes,Identity Management,IT,Yes,No,Low
+ASSET-0078,FW-078,Firewall,Oracle Linux,10.10.0.78,Test,Critical,Yes,Security Monitoring,Application Team,Yes,Yes,Medium
+ASSET-0079,DB-079,Database,Linux Ubuntu,10.10.0.79,Production,Medium,No,CRM,IT,No,No,Critical
+ASSET-0080,SRV-080,Server,Ubuntu Server 24.04 LTS,10.10.0.80,Production,High,Yes,HR Application,Application Team,Yes,Yes,Medium
+ASSET-0081,SRV-081,Server,Windows Server 2019,10.10.0.81,Development,Medium,Yes,Customer Database,Network Team,No,Yes,High
+ASSET-0082,RTR-082,Router,Ubuntu Server 24.04 LTS,10.10.0.82,Test,Medium,No,CRM,DBA,No,Yes,Medium
+ASSET-0083,FW-083,Firewall,Microsoft SQL Server 2022,10.10.0.83,Production,Critical,No,Payment API,IT,Yes,Yes,High
+ASSET-0084,SRV-084,Server,Linux RedHat,10.10.0.84,Test,High,Yes,Online Banking,Application Team,Yes,Yes,Critical
+ASSET-0085,FW-085,Firewall,Ubuntu Server 24.04 LTS,10.10.0.85,Production,Medium,No,CRM,Application Team,Yes,No,Medium
+ASSET-0086,APP-086,Application Server,RedHat Enterprise Linux 9,10.10.0.86,Development,High,No,CRM,Application Team,Yes,Yes,Medium
+ASSET-0087,FW-087,Firewall,Ubuntu Server 24.04 LTS,10.10.0.87,Development,Medium,Yes,Email Service,IT,No,Yes,Medium
+ASSET-0088,FW-088,Firewall,Windows Server 2022,10.10.0.88,Production,High,No,Internal Portal,IT,Yes,No,High
+ASSET-0089,FW-089,Firewall,Ubuntu Server 24.04 LTS,10.10.0.89,Production,High,No,Security Monitoring,DBA,No,Yes,Medium
+ASSET-0090,DB-090,Database,Linux Ubuntu,10.10.0.90,Production,High,No,Internal Portal,DevOps,Yes,Yes,Critical
+ASSET-0091,RTR-091,Router,Cisco IOS,10.10.0.91,Production,High,No,CRM,DBA,Yes,No,Medium
+ASSET-0092,SRV-092,Server,Oracle Linux,10.10.0.92,Development,Critical,Yes,Email Service,DBA,No,Yes,Critical
+ASSET-0093,SW-093,Switch,Oracle Database 19c,10.10.0.93,Test,Critical,Yes,Internal Portal,Application Team,No,Yes,Critical
+ASSET-0094,SW-094,Switch,Windows Server 2019,10.10.0.94,Test,High,Yes,Security Monitoring,DevOps,No,Yes,Medium
+ASSET-0095,SW-095,Switch,Oracle Linux,10.10.0.95,Production,Critical,Yes,Customer Database,Application Team,No,Yes,Low
+ASSET-0096,RTR-096,Router,Windows Server 2019,10.10.0.96,Development,Critical,Yes,Identity Management,DBA,Yes,Yes,Medium
+ASSET-0097,SW-097,Switch,Linux RedHat,10.10.0.97,Development,Critical,Yes,ERP,IT,Yes,No,Critical
+ASSET-0098,SW-098,Switch,Linux Ubuntu,10.10.0.98,Development,Critical,No,Identity Management,IT,Yes,No,Medium
+ASSET-0099,RTR-099,Router,Microsoft SQL Server 2022,10.10.0.99,Test,Critical,Yes,Email Service,Network Team,No,No,Critical
+ASSET-0100,APP-100,Application Server,Linux Ubuntu,10.10.0.100,Production,Low,Yes,Customer Database,DBA,Yes,No,Medium
+ASSET-0101,SRV-101,Server,RedHat Enterprise Linux 9,10.10.0.101,Development,High,Yes,CRM,Security Team,No,Yes,Low
+ASSET-0102,DB-102,Database,Oracle Linux,10.10.0.102,Test,Medium,No,Identity Management,Network Team,No,No,Low
+ASSET-0103,APP-103,Application Server,Microsoft SQL Server 2022,10.10.0.103,Development,High,Yes,Email Service,Application Team,No,No,Critical
+ASSET-0104,APP-104,Application Server,Oracle Linux,10.10.0.104,Production,Critical,Yes,Email Service,IT,Yes,Yes,Medium
+ASSET-0105,DB-105,Database,Cisco IOS,10.10.0.105,Development,High,No,Security Monitoring,DevOps,No,No,Medium
+ASSET-0106,RTR-106,Router,RedHat Enterprise Linux 9,10.10.0.106,Development,High,Yes,Online Banking,Network Team,Yes,Yes,Low
+ASSET-0107,FW-107,Firewall,Windows Server 2022,10.10.0.107,Test,Medium,No,ERP,IT,No,No,Medium
+ASSET-0108,SRV-108,Server,Oracle Linux,10.10.0.108,Development,High,Yes,Payment API,Network Team,Yes,No,Critical
+ASSET-0109,SRV-109,Server,Oracle Database 19c,10.10.0.109,Production,Medium,No,Security Monitoring,DevOps,No,Yes,Medium
+ASSET-0110,RTR-110,Router,Microsoft SQL Server 2022,10.10.0.110,Production,Medium,Yes,Email Service,Network Team,Yes,No,Critical
+ASSET-0111,APP-111,Application Server,Windows Server 2019,10.10.0.111,Development,Low,No,HR Application,Network Team,Yes,Yes,Medium
+ASSET-0112,DB-112,Database,RedHat Enterprise Linux 9,10.10.0.112,Development,High,Yes,Payment API,DBA,No,Yes,Critical
+ASSET-0113,FW-113,Firewall,Microsoft SQL Server 2022,10.10.0.113,Test,Medium,No,Online Banking,Application Team,Yes,No,Medium
+ASSET-0114,APP-114,Application Server,Oracle Database 19c,10.10.0.114,Test,Medium,No,Identity Management,Application Team,No,No,Critical
+ASSET-0115,APP-115,Application Server,RedHat Enterprise Linux 9,10.10.0.115,Test,Critical,Yes,Identity Management,DBA,Yes,Yes,Medium
+ASSET-0116,RTR-116,Router,Windows Server 2025,10.10.0.116,Development,Medium,Yes,Payment API,Application Team,No,No,Critical
+ASSET-0117,SRV-117,Server,Microsoft SQL Server 2022,10.10.0.117,Development,Critical,No,Customer Database,Security Team,Yes,Yes,Low
+ASSET-0118,RTR-118,Router,Linux RedHat,10.10.0.118,Test,Medium,Yes,Email Service,Security Team,No,No,Medium
+ASSET-0119,SRV-119,Server,Windows Server 2022,10.10.0.119,Development,Critical,Yes,Customer Database,DevOps,Yes,Yes,Critical
+ASSET-0120,APP-120,Application Server,RedHat Enterprise Linux 9,10.10.0.120,Development,Critical,Yes,ERP,Network Team,Yes,No,Low
+ASSET-0121,SRV-121,Server,Windows Server 2025,10.10.0.121,Development,High,No,Payment API,Network Team,Yes,Yes,Critical
+ASSET-0122,DB-122,Database,Windows Server 2025,10.10.0.122,Test,Medium,Yes,CRM,IT,Yes,No,Low
+ASSET-0123,SRV-123,Server,Ubuntu Server 24.04 LTS,10.10.0.123,Test,High,Yes,Online Banking,IT,Yes,No,Low
+ASSET-0124,FW-124,Firewall,Linux Ubuntu,10.10.0.124,Test,High,No,HR Application,Network Team,Yes,No,Critical
+ASSET-0125,APP-125,Application Server,Ubuntu Server 24.04 LTS,10.10.0.125,Production,High,No,Online Banking,DevOps,No,No,Critical
+ASSET-0126,SRV-126,Server,Oracle Linux,10.10.0.126,Test,High,No,Security Monitoring,DevOps,No,No,High
+ASSET-0127,RTR-127,Router,Microsoft SQL Server 2022,10.10.0.127,Development,Critical,Yes,Email Service,DBA,No,Yes,Critical
+ASSET-0128,FW-128,Firewall,Windows Server 2025,10.10.0.128,Test,Medium,No,Internal Portal,Application Team,Yes,No,Low
+ASSET-0129,SW-129,Switch,Windows Server 2025,10.10.0.129,Test,High,Yes,CRM,Application Team,Yes,Yes,Low
+ASSET-0130,SW-130,Switch,Oracle Database 19c,10.10.0.130,Test,High,No,Security Monitoring,DevOps,No,No,High
+ASSET-0131,RTR-131,Router,Oracle Linux,10.10.0.131,Development,Medium,No,Email Service,IT,No,No,Low
+ASSET-0132,APP-132,Application Server,Microsoft SQL Server 2022,10.10.0.132,Development,Critical,Yes,Security Monitoring,Network Team,No,Yes,Medium
+ASSET-0133,SRV-133,Server,Windows Server 2019,10.10.0.133,Production,High,Yes,ERP,Security Team,Yes,Yes,Critical
+ASSET-0134,DB-134,Database,Ubuntu Server 24.04 LTS,10.10.0.134,Test,High,Yes,HR Application,Network Team,No,No,High
+ASSET-0135,FW-135,Firewall,Windows Server 2019,10.10.0.135,Test,High,Yes,Email Service,DBA,Yes,Yes,High
+ASSET-0136,SRV-136,Server,Linux RedHat,10.10.0.136,Development,Medium,Yes,Payment API,Application Team,No,No,High
+ASSET-0137,APP-137,Application Server,Oracle Database 19c,10.10.0.137,Development,High,Yes,Email Service,IT,Yes,Yes,Low
+ASSET-0138,RTR-138,Router,Oracle Linux,10.10.0.138,Production,High,Yes,HR Application,IT,No,No,Medium
+ASSET-0139,DB-139,Database,Ubuntu Server 24.04 LTS,10.10.0.139,Production,Critical,Yes,CRM,IT,Yes,Yes,High
+ASSET-0140,APP-140,Application Server,Linux Ubuntu,10.10.0.140,Development,High,Yes,Customer Database,IT,Yes,Yes,Medium
+ASSET-0141,FW-141,Firewall,Oracle Linux,10.10.0.141,Production,Medium,No,Security Monitoring,Network Team,No,No,Low
+ASSET-0142,DB-142,Database,Linux Ubuntu,10.10.0.142,Development,Medium,No,ERP,Application Team,Yes,No,Critical
+ASSET-0143,SRV-143,Server,Windows Server 2022,10.10.0.143,Production,High,Yes,ERP,Network Team,Yes,Yes,High
+ASSET-0144,DB-144,Database,Windows Server 2019,10.10.0.144,Test,Medium,Yes,Payment API,Security Team,Yes,Yes,Critical
+ASSET-0145,SW-145,Switch,RedHat Enterprise Linux 9,10.10.0.145,Test,High,Yes,ERP,DevOps,Yes,No,Critical
+ASSET-0146,DB-146,Database,Linux Ubuntu,10.10.0.146,Test,Medium,Yes,Security Monitoring,DBA,No,Yes,Critical
+ASSET-0147,DB-147,Database,Cisco IOS,10.10.0.147,Development,Medium,No,Payment API,IT,No,No,Critical
+ASSET-0148,FW-148,Firewall,Cisco IOS,10.10.0.148,Development,Critical,Yes,Online Banking,IT,Yes,No,Critical
+ASSET-0149,RTR-149,Router,Windows Server 2019,10.10.0.149,Test,Critical,Yes,Internal Portal,DevOps,Yes,Yes,Medium
+ASSET-0150,SRV-150,Server,Windows Server 2022,10.10.0.150,Production,High,Yes,CRM,Application Team,No,No,Critical
+ASSET-0151,SRV-151,Server,Windows Server 2025,10.10.0.151,Test,Medium,No,Online Banking,Security Team,Yes,No,High
+ASSET-0152,FW-152,Firewall,RedHat Enterprise Linux 9,10.10.0.152,Test,Medium,Yes,HR Application,Security Team,Yes,No,Critical
+ASSET-0153,APP-153,Application Server,Linux RedHat,10.10.0.153,Production,High,Yes,Security Monitoring,DevOps,No,No,High
+ASSET-0154,SW-154,Switch,Windows Server 2022,10.10.0.154,Production,Medium,Yes,Payment API,Security Team,Yes,Yes,Critical
+ASSET-0155,FW-155,Firewall,Oracle Linux,10.10.0.155,Production,High,No,Identity Management,DevOps,No,No,Critical
+ASSET-0156,RTR-156,Router,Linux Ubuntu,10.10.0.156,Test,Critical,No,Security Monitoring,DevOps,No,Yes,Medium
+ASSET-0157,RTR-157,Router,Microsoft SQL Server 2022,10.10.0.157,Production,Low,Yes,Online Banking,Network Team,Yes,No,Critical
+ASSET-0158,DB-158,Database,Linux RedHat,10.10.0.158,Development,Critical,No,Internal Portal,DBA,Yes,No,Low
+ASSET-0159,FW-159,Firewall,Windows Server 2022,10.10.0.159,Production,High,No,Identity Management,DevOps,Yes,No,Critical
+ASSET-0160,FW-160,Firewall,Oracle Linux,10.10.0.160,Test,Medium,No,Security Monitoring,DBA,No,No,Low
+ASSET-0161,RTR-161,Router,Oracle Linux,10.10.0.161,Development,High,No,HR Application,Application Team,Yes,Yes,High
+ASSET-0162,RTR-162,Router,Windows Server 2019,10.10.0.162,Production,Critical,No,HR Application,Application Team,Yes,Yes,High
+ASSET-0163,FW-163,Firewall,Windows Server 2025,10.10.0.163,Development,Critical,Yes,Identity Management,DBA,Yes,Yes,Low
+ASSET-0164,FW-164,Firewall,Linux Ubuntu,10.10.0.164,Production,Low,No,Customer Database,DevOps,Yes,Yes,Medium
+ASSET-0165,DB-165,Database,Windows Server 2022,10.10.0.165,Production,Critical,Yes,HR Application,Application Team,No,No,High
+ASSET-0166,SW-166,Switch,RedHat Enterprise Linux 9,10.10.0.166,Test,High,Yes,Identity Management,Application Team,Yes,Yes,Critical
+ASSET-0167,SRV-167,Server,Windows Server 2019,10.10.0.167,Production,High,Yes,Payment API,Security Team,Yes,No,Medium
+ASSET-0168,FW-168,Firewall,Linux RedHat,10.10.0.168,Test,Critical,Yes,Internal Portal,Application Team,Yes,Yes,Critical
+ASSET-0169,RTR-169,Router,Windows Server 2019,10.10.0.169,Test,Low,Yes,HR Application,DBA,No,Yes,Critical
+ASSET-0170,SW-170,Switch,Microsoft SQL Server 2022,10.10.0.170,Production,Medium,No,HR Application,DevOps,No,No,Critical
+ASSET-0171,SRV-171,Server,Windows Server 2022,10.10.0.171,Development,Critical,Yes,HR Application,IT,Yes,Yes,Low
+ASSET-0172,RTR-172,Router,Windows Server 2019,10.10.0.172,Development,Low,No,Identity Management,DevOps,Yes,No,High
+ASSET-0173,APP-173,Application Server,Cisco IOS,10.10.0.173,Development,Medium,No,Payment API,Security Team,No,No,Medium
+ASSET-0174,FW-174,Firewall,Oracle Linux,10.10.0.174,Development,Medium,Yes,Customer Database,Security Team,No,Yes,Low
+ASSET-0175,FW-175,Firewall,Linux Ubuntu,10.10.0.175,Development,High,No,Online Banking,Application Team,No,No,Medium
+ASSET-0176,SRV-176,Server,Linux RedHat,10.10.0.176,Production,High,Yes,HR Application,Application Team,Yes,Yes,Low
+ASSET-0177,DB-177,Database,Ubuntu Server 24.04 LTS,10.10.0.177,Production,Medium,No,HR Application,DevOps,Yes,No,Medium
+ASSET-0178,SRV-178,Server,RedHat Enterprise Linux 9,10.10.0.178,Production,High,Yes,HR Application,DBA,No,Yes,High
+ASSET-0179,SW-179,Switch,Cisco IOS,10.10.0.179,Test,Low,Yes,Email Service,Application Team,Yes,Yes,High
+ASSET-0180,DB-180,Database,Linux RedHat,10.10.0.180,Development,High,No,Payment API,IT,Yes,Yes,Critical
+ASSET-0181,APP-181,Application Server,Linux Ubuntu,10.10.0.181,Production,Low,Yes,HR Application,Application Team,Yes,No,Medium
+ASSET-0182,RTR-182,Router,Oracle Linux,10.10.0.182,Production,High,No,CRM,Network Team,No,Yes,High
+ASSET-0183,RTR-183,Router,Windows Server 2025,10.10.0.183,Test,High,No,Payment API,DevOps,No,No,High
+ASSET-0184,FW-184,Firewall,Ubuntu Server 24.04 LTS,10.10.0.184,Production,Medium,No,Email Service,Network Team,Yes,No,High
+ASSET-0185,SW-185,Switch,Microsoft SQL Server 2022,10.10.0.185,Production,High,Yes,Payment API,DevOps,Yes,No,Critical
+ASSET-0186,FW-186,Firewall,Windows Server 2025,10.10.0.186,Production,Medium,Yes,Customer Database,Network Team,No,Yes,Critical
+ASSET-0187,SW-187,Switch,Oracle Database 19c,10.10.0.187,Test,Critical,No,ERP,DBA,No,Yes,Critical
+ASSET-0188,SW-188,Switch,Oracle Linux,10.10.0.188,Test,Medium,No,Identity Management,Network Team,No,Yes,Low
+ASSET-0189,SW-189,Switch,Linux Ubuntu,10.10.0.189,Test,Medium,No,ERP,DevOps,No,Yes,High
+ASSET-0190,RTR-190,Router,Oracle Linux,10.10.0.190,Production,High,No,Identity Management,DBA,No,No,High
+ASSET-0191,APP-191,Application Server,Cisco IOS,10.10.0.191,Production,High,No,Customer Database,IT,Yes,Yes,High
+ASSET-0192,APP-192,Application Server,Windows Server 2022,10.10.0.192,Test,High,Yes,HR Application,Security Team,No,No,Medium
+ASSET-0193,DB-193,Database,Cisco IOS,10.10.0.193,Test,Medium,No,Payment API,Security Team,No,Yes,Medium
+ASSET-0194,RTR-194,Router,Windows Server 2025,10.10.0.194,Production,Low,Yes,Email Service,Network Team,No,Yes,High
+ASSET-0195,SW-195,Switch,Windows Server 2022,10.10.0.195,Development,Low,No,CRM,Security Team,Yes,Yes,Medium
+ASSET-0196,RTR-196,Router,Ubuntu Server 24.04 LTS,10.10.0.196,Production,High,No,HR Application,Application Team,Yes,No,High
+ASSET-0197,SRV-197,Server,RedHat Enterprise Linux 9,10.10.0.197,Development,Low,No,Payment API,Security Team,Yes,Yes,Low
+ASSET-0198,FW-198,Firewall,Windows Server 2025,10.10.0.198,Development,Medium,No,Customer Database,IT,No,Yes,Critical
+ASSET-0199,DB-199,Database,Linux Ubuntu,10.10.0.199,Production,High,No,Payment API,DevOps,Yes,Yes,High
+ASSET-0200,SW-200,Switch,Oracle Database 19c,10.10.0.200,Test,Critical,Yes,Identity Management,DevOps,No,Yes,Low
+ASSET-0201,RTR-201,Router,Windows Server 2019,10.10.0.201,Development,Medium,No,HR Application,Network Team,No,Yes,High
+ASSET-0202,RTR-202,Router,Microsoft SQL Server 2022,10.10.0.202,Production,Critical,Yes,Identity Management,IT,Yes,Yes,Medium
+ASSET-0203,APP-203,Application Server,Linux RedHat,10.10.0.203,Production,High,No,Internal Portal,Application Team,Yes,Yes,Low
+ASSET-0204,APP-204,Application Server,Windows Server 2022,10.10.0.204,Development,High,Yes,Online Banking,Application Team,Yes,No,Critical
+ASSET-0205,APP-205,Application Server,Cisco IOS,10.10.0.205,Development,High,No,Customer Database,Application Team,No,Yes,Medium
+ASSET-0206,FW-206,Firewall,Cisco IOS,10.10.0.206,Development,Critical,Yes,CRM,IT,Yes,No,Medium
+ASSET-0207,FW-207,Firewall,RedHat Enterprise Linux 9,10.10.0.207,Production,High,No,CRM,Application Team,No,No,Critical
+ASSET-0208,FW-208,Firewall,RedHat Enterprise Linux 9,10.10.0.208,Test,High,No,Email Service,DevOps,No,No,High
+ASSET-0209,SW-209,Switch,Linux RedHat,10.10.0.209,Production,High,No,CRM,DevOps,No,No,Critical
+ASSET-0210,RTR-210,Router,Cisco IOS,10.10.0.210,Development,Medium,No,Customer Database,DevOps,Yes,No,Low
+ASSET-0211,RTR-211,Router,Windows Server 2019,10.10.0.211,Test,High,Yes,ERP,DBA,Yes,Yes,Low
+ASSET-0212,FW-212,Firewall,Windows Server 2025,10.10.0.212,Production,Medium,No,Payment API,IT,Yes,Yes,Critical
+ASSET-0213,DB-213,Database,Windows Server 2022,10.10.0.213,Development,Medium,No,CRM,DBA,No,No,Low
+ASSET-0214,FW-214,Firewall,Linux RedHat,10.10.0.214,Production,High,Yes,ERP,DBA,Yes,No,Low
+ASSET-0215,SW-215,Switch,Windows Server 2025,10.10.0.215,Development,High,No,HR Application,DevOps,Yes,No,Critical
+ASSET-0216,APP-216,Application Server,Windows Server 2025,10.10.0.216,Development,Medium,Yes,ERP,Network Team,Yes,No,Medium
+ASSET-0217,FW-217,Firewall,Windows Server 2019,10.10.0.217,Test,High,No,Email Service,Network Team,No,No,High
+ASSET-0218,APP-218,Application Server,RedHat Enterprise Linux 9,10.10.0.218,Production,Medium,Yes,Online Banking,Security Team,Yes,Yes,High
+ASSET-0219,DB-219,Database,Windows Server 2022,10.10.0.219,Development,High,Yes,CRM,IT,No,No,Critical
+ASSET-0220,SRV-220,Server,RedHat Enterprise Linux 9,10.10.0.220,Test,Medium,Yes,Security Monitoring,Network Team,No,Yes,Medium
+ASSET-0221,SRV-221,Server,Windows Server 2025,10.10.0.221,Production,Medium,No,Online Banking,DevOps,Yes,No,Critical
+ASSET-0222,APP-222,Application Server,Windows Server 2025,10.10.0.222,Production,Medium,Yes,Customer Database,Security Team,No,Yes,High
+ASSET-0223,RTR-223,Router,Linux Ubuntu,10.10.0.223,Development,High,No,CRM,Application Team,Yes,Yes,Medium
+ASSET-0224,APP-224,Application Server,Ubuntu Server 24.04 LTS,10.10.0.224,Test,Medium,Yes,Internal Portal,DevOps,No,No,High
+ASSET-0225,SW-225,Switch,RedHat Enterprise Linux 9,10.10.0.225,Test,High,No,ERP,IT,Yes,No,Medium
+ASSET-0226,SW-226,Switch,Oracle Linux,10.10.0.226,Test,Critical,Yes,Internal Portal,DevOps,Yes,No,Low
+ASSET-0227,RTR-227,Router,RedHat Enterprise Linux 9,10.10.0.227,Development,Critical,Yes,HR Application,Security Team,Yes,No,High
+ASSET-0228,FW-228,Firewall,Oracle Database 19c,10.10.0.228,Production,Medium,Yes,Security Monitoring,Security Team,Yes,No,Critical
+ASSET-0229,RTR-229,Router,Windows Server 2019,10.10.0.229,Development,Critical,No,Payment API,IT,No,No,Critical
+ASSET-0230,SW-230,Switch,Linux RedHat,10.10.0.230,Test,Medium,Yes,Payment API,Application Team,No,No,High
+ASSET-0231,APP-231,Application Server,Linux Ubuntu,10.10.0.231,Development,Medium,No,Internal Portal,DBA,Yes,Yes,Critical
+ASSET-0232,RTR-232,Router,Windows Server 2022,10.10.0.232,Production,Medium,No,Internal Portal,Security Team,No,No,Critical
+ASSET-0233,APP-233,Application Server,Linux RedHat,10.10.0.233,Development,High,Yes,Security Monitoring,DevOps,Yes,No,Critical
+ASSET-0234,FW-234,Firewall,Linux Ubuntu,10.10.0.234,Test,High,Yes,Payment API,IT,No,Yes,High
+ASSET-0235,DB-235,Database,Oracle Database 19c,10.10.0.235,Production,High,No,HR Application,DevOps,Yes,No,Critical
+ASSET-0236,DB-236,Database,Linux Ubuntu,10.10.0.236,Production,Medium,Yes,HR Application,IT,No,Yes,Low
+ASSET-0237,DB-237,Database,Ubuntu Server 24.04 LTS,10.10.0.237,Development,Critical,Yes,CRM,DBA,Yes,Yes,High
+ASSET-0238,DB-238,Database,Oracle Linux,10.10.0.238,Development,Critical,Yes,Online Banking,DBA,Yes,No,Critical
+ASSET-0239,FW-239,Firewall,Windows Server 2025,10.10.0.239,Development,High,No,Online Banking,Network Team,No,No,Critical
+ASSET-0240,SW-240,Switch,Windows Server 2022,10.10.0.240,Development,High,Yes,HR Application,IT,No,No,Medium
+ASSET-0241,RTR-241,Router,Windows Server 2025,10.10.0.241,Production,High,Yes,Identity Management,DevOps,No,Yes,Low
+ASSET-0242,DB-242,Database,RedHat Enterprise Linux 9,10.10.0.242,Production,High,Yes,CRM,Security Team,Yes,Yes,Medium
+ASSET-0243,SRV-243,Server,Windows Server 2025,10.10.0.243,Development,High,No,Online Banking,IT,Yes,Yes,High
+ASSET-0244,APP-244,Application Server,Oracle Database 19c,10.10.0.244,Production,High,No,Security Monitoring,Security Team,Yes,Yes,Critical
+ASSET-0245,SW-245,Switch,Linux RedHat,10.10.0.245,Production,High,No,Payment API,Application Team,No,Yes,Medium
+ASSET-0246,FW-246,Firewall,Windows Server 2022,10.10.0.246,Test,Critical,Yes,HR Application,DevOps,Yes,Yes,Critical
+ASSET-0247,SRV-247,Server,Linux Ubuntu,10.10.0.247,Production,Low,Yes,CRM,DevOps,No,Yes,Medium
+ASSET-0248,FW-248,Firewall,RedHat Enterprise Linux 9,10.10.0.248,Test,High,Yes,HR Application,Security Team,Yes,Yes,Medium
+ASSET-0249,SW-249,Switch,Microsoft SQL Server 2022,10.10.0.249,Development,Critical,No,CRM,Security Team,Yes,No,Critical
+ASSET-0250,APP-250,Application Server,Cisco IOS,10.10.0.250,Development,Medium,Yes,HR Application,Application Team,No,No,Critical
+ASSET-0251,APP-251,Application Server,Windows Server 2022,10.10.0.251,Development,Critical,Yes,Online Banking,Security Team,No,No,High
+ASSET-0252,FW-252,Firewall,Oracle Linux,10.10.0.252,Production,Medium,No,Identity Management,DBA,No,Yes,Critical
+ASSET-0253,DB-253,Database,Linux Ubuntu,10.10.0.253,Development,Medium,No,HR Application,DBA,Yes,Yes,Medium
+ASSET-0254,DB-254,Database,Windows Server 2022,10.10.0.254,Test,High,No,Online Banking,IT,Yes,Yes,Medium
+ASSET-0255,SW-255,Switch,Linux RedHat,10.10.1.0,Development,High,No,HR Application,IT,Yes,Yes,Medium
+ASSET-0256,DB-256,Database,Ubuntu Server 24.04 LTS,10.10.1.1,Test,High,Yes,Online Banking,IT,No,No,Critical
+ASSET-0257,FW-257,Firewall,Windows Server 2022,10.10.1.2,Production,Low,No,Internal Portal,Security Team,Yes,Yes,Medium
+ASSET-0258,FW-258,Firewall,Linux Ubuntu,10.10.1.3,Production,High,No,Customer Database,DBA,No,No,Low
+ASSET-0259,APP-259,Application Server,RedHat Enterprise Linux 9,10.10.1.4,Development,High,Yes,Identity Management,IT,No,No,Critical
+ASSET-0260,SW-260,Switch,Oracle Database 19c,10.10.1.5,Development,Critical,Yes,Internal Portal,IT,Yes,No,Medium
+ASSET-0261,DB-261,Database,Cisco IOS,10.10.1.6,Development,Medium,No,ERP,IT,Yes,Yes,Low
+ASSET-0262,FW-262,Firewall,Oracle Database 19c,10.10.1.7,Test,High,No,HR Application,DBA,Yes,Yes,Critical
+ASSET-0263,FW-263,Firewall,Windows Server 2019,10.10.1.8,Development,Critical,Yes,CRM,Network Team,No,Yes,Low
+ASSET-0264,FW-264,Firewall,Windows Server 2019,10.10.1.9,Development,Medium,Yes,Payment API,Security Team,No,Yes,Medium
+ASSET-0265,FW-265,Firewall,Ubuntu Server 24.04 LTS,10.10.1.10,Development,High,Yes,HR Application,IT,No,Yes,Critical
+ASSET-0266,SRV-266,Server,Microsoft SQL Server 2022,10.10.1.11,Development,High,No,Email Service,DBA,No,Yes,Critical
+ASSET-0267,RTR-267,Router,Windows Server 2019,10.10.1.12,Production,Critical,Yes,Security Monitoring,Network Team,Yes,Yes,Low
+ASSET-0268,APP-268,Application Server,Ubuntu Server 24.04 LTS,10.10.1.13,Production,High,Yes,Customer Database,DevOps,No,No,High
+ASSET-0269,SRV-269,Server,Windows Server 2019,10.10.1.14,Development,Medium,Yes,Security Monitoring,Application Team,Yes,Yes,High
+ASSET-0270,SW-270,Switch,Windows Server 2022,10.10.1.15,Development,High,Yes,Online Banking,DevOps,No,No,Low
+ASSET-0271,APP-271,Application Server,Microsoft SQL Server 2022,10.10.1.16,Test,Medium,No,Security Monitoring,Network Team,No,Yes,High
+ASSET-0272,SRV-272,Server,Ubuntu Server 24.04 LTS,10.10.1.17,Test,Critical,No,Identity Management,DBA,Yes,No,Critical
+ASSET-0273,RTR-273,Router,Microsoft SQL Server 2022,10.10.1.18,Test,High,Yes,Internal Portal,Security Team,Yes,No,High
+ASSET-0274,RTR-274,Router,Windows Server 2025,10.10.1.19,Test,Medium,No,Online Banking,IT,Yes,No,Critical
+ASSET-0275,SRV-275,Server,Ubuntu Server 24.04 LTS,10.10.1.20,Test,Medium,Yes,Email Service,Network Team,Yes,No,Medium
+ASSET-0276,APP-276,Application Server,Linux RedHat,10.10.1.21,Test,Critical,Yes,Online Banking,Application Team,Yes,Yes,High
+ASSET-0277,DB-277,Database,Oracle Database 19c,10.10.1.22,Development,High,No,CRM,DBA,No,Yes,Low
+ASSET-0278,RTR-278,Router,Oracle Database 19c,10.10.1.23,Development,Medium,No,HR Application,Network Team,Yes,Yes,Critical
+ASSET-0279,RTR-279,Router,Oracle Linux,10.10.1.24,Development,Medium,No,Internal Portal,DevOps,Yes,Yes,High
+ASSET-0280,SRV-280,Server,RedHat Enterprise Linux 9,10.10.1.25,Production,High,No,Online Banking,Security Team,Yes,No,Medium
+ASSET-0281,RTR-281,Router,Linux Ubuntu,10.10.1.26,Production,High,No,Internal Portal,IT,No,Yes,Low
+ASSET-0282,DB-282,Database,Linux RedHat,10.10.1.27,Production,Critical,No,ERP,IT,No,Yes,Critical
+ASSET-0283,FW-283,Firewall,Linux Ubuntu,10.10.1.28,Development,High,Yes,Email Service,Application Team,Yes,Yes,High
+ASSET-0284,APP-284,Application Server,Linux Ubuntu,10.10.1.29,Development,High,No,Security Monitoring,Security Team,No,Yes,Critical
+ASSET-0285,FW-285,Firewall,Windows Server 2025,10.10.1.30,Production,High,No,Security Monitoring,Security Team,Yes,No,Critical
+ASSET-0286,FW-286,Firewall,Oracle Linux,10.10.1.31,Development,Critical,Yes,Online Banking,DBA,No,Yes,High
+ASSET-0287,SRV-287,Server,Windows Server 2025,10.10.1.32,Development,High,No,CRM,DevOps,No,No,High
+ASSET-0288,RTR-288,Router,Windows Server 2022,10.10.1.33,Development,High,Yes,Security Monitoring,DevOps,Yes,No,High
+ASSET-0289,DB-289,Database,Linux Ubuntu,10.10.1.34,Production,High,No,Customer Database,Network Team,Yes,Yes,High
+ASSET-0290,FW-290,Firewall,Windows Server 2022,10.10.1.35,Development,Critical,Yes,Security Monitoring,Security Team,Yes,Yes,Medium
+ASSET-0291,SRV-291,Server,Oracle Database 19c,10.10.1.36,Production,Low,Yes,Security Monitoring,Application Team,No,Yes,Critical
+ASSET-0292,SW-292,Switch,Windows Server 2019,10.10.1.37,Development,Medium,No,HR Application,DevOps,Yes,Yes,Low
+ASSET-0293,RTR-293,Router,Windows Server 2025,10.10.1.38,Test,Medium,Yes,Internal Portal,Network Team,Yes,Yes,Low
+ASSET-0294,DB-294,Database,Oracle Linux,10.10.1.39,Development,Medium,Yes,Internal Portal,Security Team,No,Yes,Critical
+ASSET-0295,APP-295,Application Server,RedHat Enterprise Linux 9,10.10.1.40,Production,Critical,Yes,Payment API,DevOps,No,Yes,High
+ASSET-0296,APP-296,Application Server,Oracle Database 19c,10.10.1.41,Test,Low,No,Security Monitoring,DBA,No,Yes,Critical
+ASSET-0297,DB-297,Database,Windows Server 2022,10.10.1.42,Test,High,Yes,HR Application,DBA,Yes,No,High
+ASSET-0298,FW-298,Firewall,Oracle Database 19c,10.10.1.43,Development,Medium,Yes,Online Banking,DBA,Yes,No,Critical
+ASSET-0299,SW-299,Switch,Linux RedHat,10.10.1.44,Production,Medium,No,Payment API,IT,Yes,No,Critical
+ASSET-0300,RTR-300,Router,Windows Server 2022,10.10.1.45,Development,High,No,CRM,Application Team,Yes,No,Critical

@@ -1,0 +1,21 @@
+# Environnements virtuels
+.venv/
+venv/
+backend/venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+psswrd.txt
+
+# Notes personnelles
+Bonjour*.txt
+
+# Données volumineuses (> 100 Mo, refusées par GitHub) — régénérables via backend/scripts
+/exposure_dataset.csv
+data/processed/exposure_dataset.csv
+data/processed/net_risk_dataset.csv
+data/raw/nvdcve-2.0-2026.json
